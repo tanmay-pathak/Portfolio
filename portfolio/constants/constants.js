@@ -1,72 +1,87 @@
-export const EmailID = "mailto:your@email.com";
+export const EmailID = "mailto:tanmay.pathak@usask.ca";
 
-export const GitHubLink = "https://github.com/your-github-username";
+export const GitHubLink = "https://github.com/tanmay-pathak";
 
-export const LinkedinLink =
-  "https://www.linkedin.com/in/your-linkedin-username/";
+export const LinkedinLink = "https://www.linkedin.com/in/pathak-tanmay/";
 
-export const HomeTitle = "Demo";
+export const HomeTitle = "Tanmay Pathak";
 
-export const HomeHeader = "This is a demo of a portfolio site.";
+export const HomeHeader = "Welcome to my Portfolio!";
 
-export const HomeDescription = "You can write something about yourself here.";
+export const HomeDescription =
+  "I am Tanmay Pathak, a Computer Science Student at University of Saskatchewan. Check out my recent projects below!";
 
 export const TechDescription =
-  "Here are some technologies to show off your skills.";
+  "I have learned many technologies over the years. Here are some of them:";
 
-export const AboutDescription = "A little bit about yourself.";
+export const AboutDescription =
+  "I am a software developer with a passion for learning new technologies and using them to find solutions that solve real-world problems.";
 
-export const Languages = "Enter languages you know here.";
+export const Languages =
+  "Proficient in Python, Java and C. Experience with JavaScript, HTML and CSS.";
 
-export const FrontEnd = "Enter Front-End technologies here.";
+export const FrontEnd = "Experience with React and NextJS.";
 
-export const BackEnd = "Enter Back-End technologies here.";
+export const BackEnd = "Experience with MySQL and CouchDB.";
 
-export const Tools = "Enter tools you use here.";
+export const Tools = "Proficient in Git, Docker, VS Code and JetBrains' IDEs.";
 
 export const ProjectsList = [
   {
-    title: "Project 1",
-    description: "Enter description about your project here.",
-    image: "/images/image1.png",
-    tags: ["Tools", "Used", "To", "Build"],
-    source: "https://github.com/link-to-your-project",
+    title: "Drawing Application",
+    description:
+      "A basic drawing application which allows the user to create and manipulate shapes on the canvas.",
+    image: "/images/drawing-application.png",
+    tags: ["Java", "JavaFX", "Git", "IntelliJ"],
+    source: "https://github.com/tanmay-pathak/Drawing-Application",
     id: 0
   },
   {
-    title: "Project 2",
-    description: "Enter description about your project here.",
-    image: "/images/image1.png",
-    tags: ["Tools", "Used", "To", "Build"],
-    source: "https://github.com/link-to-your-project",
+    title: "Ship Application",
+    description:
+      "A JavaFX application which lets users create, move, and select ships. Supports grouping operations and has a built-in clipboard.",
+    image: "/images/ship-application.png",
+    tags: ["Java", "JavaFX", "Git", "IntelliJ"],
+    source: "https://github.com/tanmay-pathak/Ship-Application",
     id: 1
   },
   {
-    title: "Project 3",
-    description: "Enter description about your project here.",
-    image: "/images/image1.png",
-    tags: ["Tools", "Used", "To", "Build"],
-    source: "https://github.com/link-to-your-project",
+    title: "TrooBoutique",
+    description:
+      "A successful online start-up to sell repurposed designer jewelry.",
+    image: "/images/troo-boutique.png",
+    tags: ["Shopify", "Stripe"],
+    source: "https://trooboutique.com",
     id: 2
   },
   {
-    title: "Project 4",
-    description: "Enter description about your project here.",
-    image: "/images/image1.png",
-    tags: ["Tools", "Used", "To", "Build"],
-    source: "https://github.com/link-to-your-project",
+    title: "UNIX Shell",
+    description:
+      "A shell program which supports UNIX commands, pipes, and STDOut redirection.",
+    image: "/images/Shell.png",
+    tags: ["C", "Git", "VS Code"],
+    source: "https://github.com/tanmay-pathak/UNIX-Shell",
     id: 3
+  },
+  {
+    title: "MLFQ Scheduler for xv6",
+    description:
+      "An optimized scheduler for RISC-V port of xv6 Operating System.",
+    image: "/images/MLFQ.png",
+    tags: ["C", "xv6", "Git", "VS Code"],
+    source: "https://github.com/tanmay-pathak/MLFQ-Scheduler-XV6",
+    id: 4
   }
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: "Example Year" },
-  { year: 2020, text: "Example Year" },
-  { year: 2023, text: "Example Year" }
+  { year: 2019, text: "Started Computer Science at U of S" },
+  { year: 2020, text: "Co-Founded TrooBoutique.com" },
+  { year: 2023, text: "Expected Graduation" }
 ];
 
 export const AccomplishmentsData = [
-  { number: 89, text: "Example Number" },
-  { number: 3, text: "Example Number" },
-  { number: 4, text: "Example Number" }
+  { number: 89, text: "Percent Overall Average at University" },
+  { number: 3, text: "Years of Coding Experience" },
+  { number: 4, text: "Languages Learnt" }
 ];
