@@ -9,8 +9,8 @@ const Accomplishments = () => (
   <Section>
     <Boxes>
       <Box>
-        <BoxNum>89</BoxNum>
-        <BoxText>Percent overall average at the University.</BoxText>
+        <BoxNum>89%</BoxNum>
+        <BoxText>Overall average at the University.</BoxText>
       </Box>
       {AccomplishmentsData.map((card, index) => (
         <Box key={index}>
