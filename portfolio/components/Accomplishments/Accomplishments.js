@@ -10,7 +10,7 @@ const Accomplishments = () => (
     <Boxes>
       <Box>
         <BoxNum>89</BoxNum>
-        <BoxText>Percent overall average at the University</BoxText>
+        <BoxText>Percent overall average at the University.</BoxText>
       </Box>
       {AccomplishmentsData.map((card, index) => (
         <Box key={index}>

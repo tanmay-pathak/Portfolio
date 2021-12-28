@@ -64,28 +64,36 @@ export const ProjectsList = [
     id: 3
   },
   {
+    title: "Portfolio Website Template",
+    description: "A single-page Next.JS website template for a portfolio.",
+    image: "/images/Portfolio.png",
+    tags: ["CSS", "Docker", "JavaScript", "NextJS", "React"],
+    source: "https://github.com/tanmay-pathak/Portfolio",
+    id: 4
+  },
+  {
     title: "MLFQ Scheduler for xv6",
     description:
       "An optimized scheduler for RISC-V port of xv6 Operating System.",
     image: "/images/MLFQ.png",
     tags: ["C", "xv6", "Git", "VS Code"],
     source: "https://github.com/tanmay-pathak/MLFQ-Scheduler-XV6",
-    id: 4
+    id: 5
   }
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: "Started Computer Science at U of S" },
-  { year: 2019, text: "Built a website for SixTwelve Lounge, Saskatoon" },
+  { year: 2019, text: "Started Computer Science at U of S." },
+  { year: 2019, text: "Built a website for SixTwelve Lounge, Saskatoon." },
   {
     year: 2019,
-    text: "Won Employee of the Year at the Sheraton Hotel, Saskatoon"
+    text: "Won Employee of the Year at the Sheraton Hotel, Saskatoon."
   },
-  { year: 2020, text: "Co-founded TrooBoutique.com" },
-  { year: 2023, text: "Expected graduation" }
+  { year: 2020, text: "Co-founded TrooBoutique.com." },
+  { year: 2023, text: "Expected graduation." }
 ];
 
 export const AccomplishmentsData = [
-  { number: 3, text: "Years of coding experience" },
-  { number: 4, text: "Languages learnt" }
+  { number: 3, text: "Years of coding experience." },
+  { number: 4, text: "Languages learnt." }
 ];
