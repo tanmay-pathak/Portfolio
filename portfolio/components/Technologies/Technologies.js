@@ -22,11 +22,11 @@ import {
 } from "../../constants/constants";
 
 const Technologies = () => (
-  <Section id="technology">
+  <Section id="skills">
     <SectionDivider />
     <br />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skills</SectionTitle>
     <SectionText>{TechDescription}</SectionText>
     <List>
       <ListItem>

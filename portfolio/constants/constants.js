@@ -9,22 +9,22 @@ export const HomeTitle = "Tanmay Pathak";
 export const HomeHeader = "Welcome to my Portfolio!";
 
 export const HomeDescription =
-  "I am Tanmay Pathak, a Computer Science Student at University of Saskatchewan. Check out my recent projects below!";
+  "My name is Tanmay Pathak and I am a third-year Computer Science student at the University of Saskatchewan. Please check out some of my projects listed below:";
 
 export const TechDescription =
-  "I have learned many technologies over the years. Here are some of them:";
+  "I am a quick learner who is always open to learn new things. Here are some of the skills I have acquired throughout the years:";
 
 export const AboutDescription =
-  "I am a software developer with a passion for learning new technologies and using them to find solutions that solve real-world problems.";
+  "I am passionate about coming up with creative solutions to real-world problems. I recently completed a Full-Stack Web Development course and am excited to learn about AI and Machine Learning next.";
 
 export const Languages =
-  "Proficient in Python, Java and C. Experience with JavaScript, HTML and CSS.";
+  "Proficient in Python, Java, and C. Experience with JavaScript, HTML, and CSS.";
 
 export const FrontEnd = "Experience with React and NextJS.";
 
 export const BackEnd = "Experience with MySQL and CouchDB.";
 
-export const Tools = "Proficient in Git, Docker, VS Code and JetBrains' IDEs.";
+export const Tools = "Proficient in Git, Docker, VS Code, and JetBrains' IDEs.";
 
 export const ProjectsList = [
   {
@@ -64,24 +64,36 @@ export const ProjectsList = [
     id: 3
   },
   {
+    title: "Portfolio Website Template",
+    description: "A single-page Next.JS website template for a portfolio.",
+    image: "/images/Portfolio.png",
+    tags: ["CSS", "Docker", "JavaScript", "NextJS", "React"],
+    source: "https://github.com/tanmay-pathak/Portfolio",
+    id: 4
+  },
+  {
     title: "MLFQ Scheduler for xv6",
     description:
       "An optimized scheduler for RISC-V port of xv6 Operating System.",
     image: "/images/MLFQ.png",
     tags: ["C", "xv6", "Git", "VS Code"],
     source: "https://github.com/tanmay-pathak/MLFQ-Scheduler-XV6",
-    id: 4
+    id: 5
   }
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: "Started Computer Science at U of S" },
-  { year: 2020, text: "Co-Founded TrooBoutique.com" },
-  { year: 2023, text: "Expected Graduation" }
+  { year: 2019, text: "Started Computer Science at U of S." },
+  { year: 2019, text: "Built a website for SixTwelve Lounge, Saskatoon." },
+  {
+    year: 2019,
+    text: "Won Employee of the Year at the Sheraton Hotel, Saskatoon."
+  },
+  { year: 2020, text: "Co-founded TrooBoutique.com." },
+  { year: 2023, text: "Expected graduation." }
 ];
 
 export const AccomplishmentsData = [
-  { number: 89, text: "Percent Overall Average at University" },
-  { number: 3, text: "Years of Coding Experience" },
-  { number: 4, text: "Languages Learnt" }
+  { number: 3, text: "Years of coding experience." },
+  { number: 4, text: "Languages learnt." }
 ];
