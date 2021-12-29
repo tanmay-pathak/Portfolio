@@ -28,13 +28,22 @@ export const Tools = "Proficient in Git, Docker, VS Code, and JetBrains' IDEs.";
 
 export const ProjectsList = [
   {
+    title: "TrooBoutique",
+    description:
+      "A successful online start-up to sell repurposed designer jewelry.",
+    image: "/images/troo-boutique.png",
+    tags: ["Shopify", "Stripe"],
+    source: "https://trooboutique.com",
+    id: 0
+  },
+  {
     title: "Drawing Application",
     description:
       "A basic drawing application which allows the user to create and manipulate shapes on the canvas.",
     image: "/images/drawing-application.png",
     tags: ["Java", "JavaFX", "Git", "IntelliJ"],
     source: "https://github.com/tanmay-pathak/Drawing-Application",
-    id: 0
+    id: 1
   },
   {
     title: "Ship Application",
@@ -43,17 +52,9 @@ export const ProjectsList = [
     image: "/images/ship-application.png",
     tags: ["Java", "JavaFX", "Git", "IntelliJ"],
     source: "https://github.com/tanmay-pathak/Ship-Application",
-    id: 1
-  },
-  {
-    title: "TrooBoutique",
-    description:
-      "A successful online start-up to sell repurposed designer jewelry.",
-    image: "/images/troo-boutique.png",
-    tags: ["Shopify", "Stripe"],
-    source: "https://trooboutique.com",
     id: 2
   },
+
   {
     title: "UNIX Shell",
     description:
