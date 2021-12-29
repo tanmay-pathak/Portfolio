@@ -12,7 +12,7 @@ import {
   ListItem,
   ListParagraph,
   ListTitle
-} from "./TechnologiesStyles";
+} from "./SkillsStyles";
 import {
   BackEnd,
   FrontEnd,
@@ -21,7 +21,7 @@ import {
   Tools
 } from "../../constants/constants";
 
-const Technologies = () => (
+const Skills = () => (
   <Section id="skills">
     <SectionDivider />
     <br />
@@ -64,4 +64,4 @@ const Technologies = () => (
   </Section>
 );
 
-export default Technologies;
+export default Skills;
