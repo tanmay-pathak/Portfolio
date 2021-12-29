@@ -11,7 +11,7 @@ export const HomeHeader = "This is a demo of a portfolio site.";
 
 export const HomeDescription = "You can write something about yourself here.";
 
-export const TechDescription =
+export const SkillsDescription =
   "Here are some technologies to show off your skills.";
 
 export const AboutDescription = "A little bit about yourself.";
