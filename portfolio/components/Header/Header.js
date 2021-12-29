@@ -43,8 +43,8 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#technology" passHref>
-          <NavLink>Technologies</NavLink>
+        <Link href="#skills" passHref>
+          <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>

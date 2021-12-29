@@ -14,7 +14,6 @@ export const FooterWrapper = styled.section`
   }
 `;
 
-
 export const SocialIconsContainer = styled.div`
   max-width: 1040px;
   display: flex;

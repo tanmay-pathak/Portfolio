@@ -12,22 +12,22 @@ import {
   ListItem,
   ListParagraph,
   ListTitle
-} from "./TechnologiesStyles";
+} from "./SkillsStyles";
 import {
   BackEnd,
   FrontEnd,
   Languages,
-  TechDescription,
+  SkillsDescription,
   Tools
 } from "../../constants/constants";
 
-const Technologies = () => (
-  <Section id="technology">
+const Skills = () => (
+  <Section id="skills">
     <SectionDivider />
     <br />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
-    <SectionText>{TechDescription}</SectionText>
+    <SectionTitle>Skills</SectionTitle>
+    <SectionText>{SkillsDescription}</SectionText>
     <List>
       <ListItem>
         <DiCode size="3rem" />
@@ -64,4 +64,4 @@ const Technologies = () => (
   </Section>
 );
 
-export default Technologies;
+export default Skills;
