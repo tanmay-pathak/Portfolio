@@ -9,7 +9,7 @@ const Accomplishments = () => (
   <Section>
     <Boxes>
       <Box>
-        <BoxNum>89%</BoxNum>
+        <BoxNum>90%</BoxNum>
         <BoxText>Overall average at the University.</BoxText>
       </Box>
       {AccomplishmentsData.map((card, index) => (
