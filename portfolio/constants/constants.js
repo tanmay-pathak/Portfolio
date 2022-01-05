@@ -90,7 +90,7 @@ export const TimeLineData = [
     year: 2019,
     text: "Won Employee of the Year at the Sheraton Hotel, Saskatoon."
   },
-  { year: 2020, text: "Co-founded TrooBoutique.com." },
+  { year: 2021, text: "Co-founded TrooBoutique.com." },
   { year: 2023, text: "Expected graduation." }
 ];
 
