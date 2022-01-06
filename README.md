@@ -7,54 +7,48 @@ A portfolio website template built with React and Next.JS.
 
 ![Home Page](images/Home.png)
 ![Technology & About Me Section](images/Tech-AboutMe.png)
-<br />
 
 ## Demo
 
 [My Portfolio](https://tanmaypathak.com)
 
-<br />
+# Instructions to use this template
 
-## Instructions to use this template
-
-### Get Source Code
-#### Clone the project
+## 1. Enter your data in
 
 ```bash
-  git clone https://github.com/tanmay-pathak/Portfolio
+/portfolio/constants/constants.js
 ```
 
-#### Go to the project directory
+## 2. Deploy this template
 
-```bash
-  cd Portfolio
-```
-<br />
+In a Docker container
 
-### Enter your data in `/portfolio/constants/constants.js`
-<br />
-
-### Run Next.JS
-#### Run in a Docker container
 ```bash
   docker-compose up
   ```
-**OR**
 
-#### Run on the host machine
+Or, on the host machine
 
 ```bash
   cd portfolio/
   npm install
   npm run dev
 ```
-<br />
 
-Visit `localhost:3000` to view the website.
+Or, via Vercel
 
-<br />
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftanmay-pathak%2FPortfolio&project-name=portfolio&repo-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Ftanmay-pathak%2FPortfolio)
+
+## 3. Visit the website at
+
+```bash
+localhost:3000
+```
+
+---
 
 ## 🔗 Links
+
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://tanmaypathak.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pathak-tanmay)
-
