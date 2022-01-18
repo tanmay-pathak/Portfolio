@@ -37,21 +37,21 @@ export const ProjectsList = [
     id: 0
   },
   {
+    title: "OneLink",
+    description:
+    "A lightweight DIY alternative to services like linktree and many.link.",
+    image: "/images/OneLink.png",
+    tags: ["Next.JS", "CSS", "Git", "Vercel"],
+    source: "https://github.com/tanmay-pathak/OneLink",
+    id: 1
+  },
+  {
     title: "Drawing Application",
     description:
       "A basic drawing application which allows the user to create and manipulate shapes on the canvas.",
     image: "/images/drawing-application.png",
     tags: ["Java", "JavaFX", "Git", "IntelliJ"],
     source: "https://github.com/tanmay-pathak/Drawing-Application",
-    id: 1
-  },
-  {
-    title: "Ship Application",
-    description:
-      "A JavaFX application which lets users create, move, and select ships. Supports grouping operations and has a built-in clipboard.",
-    image: "/images/ship-application.png",
-    tags: ["Java", "JavaFX", "Git", "IntelliJ"],
-    source: "https://github.com/tanmay-pathak/Ship-Application",
     id: 2
   },
 
