@@ -10,7 +10,7 @@ A portfolio website template built with React and Next.JS.
 
 ## Demo
 
-[My Portfolio](https://tanmaypathak.com)
+[Link](https://portfolio-zeta-three-39.vercel.app)
 
 # Instructions to use this template
 
