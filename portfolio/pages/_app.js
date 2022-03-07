@@ -1,3 +1,4 @@
+/* eslint-disable require-jsdoc */
 import Theme from "../styles/theme";
 import React from "react";
 
