@@ -4,21 +4,21 @@ import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle
+  SectionTitle,
 } from "../../styles/GlobalComponents";
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
-  ListTitle
+  ListTitle,
 } from "./SkillsStyles";
 import {
   BackEnd,
   FrontEnd,
   Languages,
   SkillsDescription,
-  Tools
+  Tools,
 } from "../../constants/constants";
 
 const Skills = () => (

@@ -6,7 +6,7 @@ import {
   EmailID,
   GitHubLink,
   HomeTitle,
-  LinkedinLink
+  LinkedinLink,
 } from "../../constants/constants";
 
 import {
@@ -16,7 +16,7 @@ import {
   Div3,
   NavLink,
   SocialIcons,
-  Span
+  Span,
 } from "./HeaderStyles";
 
 const Header = () => (
@@ -28,7 +28,7 @@ const Header = () => (
             display: "flex",
             alignItems: "center",
             color: "white",
-            marginBottom: "15px"
+            marginBottom: "15px",
           }}
         >
           <HiUser size="3rem" />

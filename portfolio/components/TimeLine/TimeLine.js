@@ -3,14 +3,14 @@ import {
   Box,
   Boxes,
   BoxNum,
-  BoxText
+  BoxText,
 } from "../Accomplishments/AccomplishmentsStyles";
 
 import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle
+  SectionTitle,
 } from "../../styles/GlobalComponents";
 import { AboutDescription, TimeLineData } from "../../constants/constants";
 

@@ -11,12 +11,12 @@ import {
   Tag,
   TagList,
   TitleContent,
-  UtilityList
+  UtilityList,
 } from "./ProjectsStyles";
 import {
   Section,
   SectionDivider,
-  SectionTitle
+  SectionTitle,
 } from "../../styles/GlobalComponents";
 import { ProjectsList } from "../../constants/constants";
 
