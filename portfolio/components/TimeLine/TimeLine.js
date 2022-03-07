@@ -5,7 +5,6 @@ import {
   BoxNum,
   BoxText,
 } from "../Accomplishments/AccomplishmentsStyles";
-
 import {
   Section,
   SectionDivider,
