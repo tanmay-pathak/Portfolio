@@ -54,7 +54,6 @@ export const Hr = styled.hr`
   background: #d0bb57;
 `;
 
-
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;

@@ -31,7 +31,7 @@ export const ProjectsList = [
     image: "/images/image1.png",
     tags: ["Tools", "Used", "To", "Build"],
     source: "https://github.com/link-to-your-project",
-    id: 0
+    id: 0,
   },
   {
     title: "Project 2",
@@ -39,7 +39,7 @@ export const ProjectsList = [
     image: "/images/image1.png",
     tags: ["Tools", "Used", "To", "Build"],
     source: "https://github.com/link-to-your-project",
-    id: 1
+    id: 1,
   },
   {
     title: "Project 3",
@@ -47,7 +47,7 @@ export const ProjectsList = [
     image: "/images/image1.png",
     tags: ["Tools", "Used", "To", "Build"],
     source: "https://github.com/link-to-your-project",
-    id: 2
+    id: 2,
   },
   {
     title: "Project 4",
@@ -55,18 +55,18 @@ export const ProjectsList = [
     image: "/images/image1.png",
     tags: ["Tools", "Used", "To", "Build"],
     source: "https://github.com/link-to-your-project",
-    id: 3
-  }
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
   { year: 2019, text: "Example Year" },
   { year: 2020, text: "Example Year" },
-  { year: 2023, text: "Example Year" }
+  { year: 2023, text: "Example Year" },
 ];
 
 export const AccomplishmentsData = [
   { number: 89, text: "Example Number" },
   { number: 3, text: "Example Number" },
-  { number: 4, text: "Example Number" }
+  { number: 4, text: "Example Number" },
 ];

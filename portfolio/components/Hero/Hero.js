@@ -1,9 +1,8 @@
 import React from "react";
-
 import {
   Section,
   SectionText,
-  SectionTitle
+  SectionTitle,
 } from "../../styles/GlobalComponents";
 import { LeftSection } from "./HeroStyles";
 import { HomeDescription, HomeHeader } from "../../constants/constants";

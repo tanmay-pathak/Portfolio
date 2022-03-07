@@ -5,7 +5,7 @@ import {
   CompanyContainer,
   FooterWrapper,
   SocialContainer,
-  SocialIconsContainer
+  SocialIconsContainer,
 } from "./FooterStyles";
 import { EmailID, GitHubLink, LinkedinLink } from "../../constants/constants";
 
